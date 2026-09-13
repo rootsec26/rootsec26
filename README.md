@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Typing SVG Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=2ECC71&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Hi,+I'm+Ashraf+(BRAX+/+rootsec26)+%F0%9F%91%8B;AI+%26+Computer+Science+Student+%F0%9F%8E%93;Python+%26+FastAPI+Backend+Developer+%F0%9F%90%8D" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=2ECC71&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Hi,+I'm+Ashraf+(rootsec26)+%F0%9F%91%8B;AI+%26+Computer+Science+Student+%F0%9F%8E%93;Python+%26+FastAPI+Backend+Developer+%F0%9F%90%8D" alt="Typing SVG" />
 
 <br/>
 <br/>
@@ -16,9 +16,6 @@
 ### 🖥️ About Me
 
 <div align="center">
-
-<!-- GitHub Readme Terminal Card -->
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=rootsec26&repo=VS-Code&theme=radical&hide_border=true" width="0" height="0" />
 
 <table>
 <tr>
@@ -81,10 +78,10 @@ class Developer:
 <p align="center">
 
 <!-- GitHub Stats Card -->
-<img src="https://github-readme-stats.vercel.app/api?username=rootsec26&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=2ECC71&text_color=C9D1D9" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=rootsec26&show_icons=true&theme=tokyonight" width="48%" />
 
 <!-- Most Used Languages -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rootsec26&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rootsec26&layout=compact&theme=tokyonight" width="48%" />
 
 </p>
 
@@ -92,28 +89,6 @@ class Developer:
 
 <!-- Streak Stats -->
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=rootsec26&theme=tokyonight&hide_border=true&background=0D1117&stroke=2ECC71&ring=58A6FF&fire=2ECC71&currStreakLabel=2ECC71&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=C9D1D9" />
-
-</p>
-
----
-
-### 🏆 GitHub Trophies
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=rootsec26&theme=radical&no-frame=true&column=7&margin-w=10" />
-</p>
-
----
-
-### 🐍 Contribution Graph
-
-<p align="center">
-
-<!-- Spotify Now Playing -->
-<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=spotify&cover_image=true&theme=novatorem&show_offline=true&background_color=0D1117&interchange=true&bar_color=2ECC71" width="0" height="0" />
-
-<!-- GitHub Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rootsec26&bg_color=0D1117&color=2ECC71&line=58A6FF&point=FFFFFF&area=true&area_color=2ECC71&hide_border=true" width="95%" />
 
 </p>
 
