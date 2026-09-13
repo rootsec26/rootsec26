@@ -1,10 +1,12 @@
 <div align="center">
 
 <!-- Typing SVG Header -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38B2AC&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Ashraf+(rootsec26)+%F0%9F%90%8D;AI+Student+%26+Frontend+Developer;Building+Smart+Web+Applications" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38B2AC&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Ashraf+(rootsec26)+%F0%9F%91%8B;AI+Student+%26+Frontend+Developer;Building+Smart+Web+Applications" alt="Typing SVG" />
 
-<!-- Capsule Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1ABC9C,100:38B2AC&height=120&section=header&text=rootsec26&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=AI%20%26%20Frontend%20Developer&descSize=18&descAlignY=55" width="100%" />
+<br/>
+
+<!-- Coding Animation GIF -->
+<img src="https://media.giphy.com/media/qgQUGGAC3P4PP9385a/giphy.gif" alt="Coding Animation" width="450" />
 
 </div>
 
