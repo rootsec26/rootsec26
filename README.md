@@ -177,6 +177,20 @@ class AshrafOmar:
 
 ---
 
+## 🏆 Cyber Achievements & Neural Trophies
+
+<p align="center"><img src="https://github-profile-trophy.vercel.app/?username=rootsec26&theme=darkhub&column=7&margin-w=15&margin-h=15&no-bg=true&no-frame=false" alt="Cyber Trophies" /></p>
+
+<p align="center"><img src="https://icongr.am/simple/vercel.svg?color=00f5ff&size=16" alt="3D" /> <strong>3D Contribution Isometric Calendar</strong></p>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/rootsec26/rootsec26/main/iso-contributions.png" alt="3D Contribution Isometric Calendar" onerror="this.style.display='none'" />
+
+</div>
+
+---
+
 ### Featured Projects
 
 | Project | Tech Stack | Status |
