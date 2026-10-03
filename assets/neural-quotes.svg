@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 780" width="900" height="780">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="50%" style="stop-color:#0d0d2b"/>
+      <stop offset="100%" style="stop-color:#1a0a2e"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00f5ff"/>
+      <stop offset="50%" style="stop-color:#7b2ff7"/>
+      <stop offset="100%" style="stop-color:#ff00e5"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00f5ff;stop-opacity:0.15"/>
+      <stop offset="50%" style="stop-color:#7b2ff7;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#ff00e5;stop-opacity:0.15"/>
+    </linearGradient>
+    <linearGradient id="quoteBoxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00f5ff;stop-opacity:0.06"/>
+      <stop offset="100%" style="stop-color:#ff00e5;stop-opacity:0.06"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00f5ff"/>
+      <stop offset="50%" style="stop-color:#7b2ff7"/>
+      <stop offset="100%" style="stop-color:#ff00e5"/>
+    </linearGradient>
+    <linearGradient id="pcbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1a0d"/>
+      <stop offset="100%" style="stop-color:#0a1a1a"/>
+    </linearGradient>
+    <linearGradient id="terminalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a14"/>
+      <stop offset="100%" style="stop-color:#0d0d1f"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowStrong">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowSoft">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glass">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feOffset in="blur" dx="0" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#00f5ff" flood-opacity="0.05" result="color"/>
+      <feComposite in="color" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .cursor-blink { animation: blink 0.9s step-end infinite; }
+      @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+      .pulse-glow { animation: pulseGlow 2.5s ease-in-out infinite; }
+      @keyframes pulseGlow { 0%,100% { opacity: 0.9; } 50% { opacity: 0.5; } }
+      .trace-flow { animation: traceFlow 3s linear infinite; }
+      @keyframes traceFlow { 0% { stroke-dashoffset: 40; } 100% { stroke-dashoffset: 0; } }
+      .trace-flow-rev { animation: traceFlowRev 3.5s linear infinite; }
+      @keyframes traceFlowRev { 0% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 40; } }
+      .bar-fill { animation: barFill 3s ease-in-out infinite; }
+      @keyframes barFill { 0% { width: 0%; } 60% { width: 100%; } 100% { width: 100%; } }
+      .bar-shimmer { animation: barShimmer 2s linear infinite; }
+      @keyframes barShimmer { 0% { opacity: 0.6; } 50% { opacity: 1; } 100% { opacity: 0.6; } }
+      .float-slow { animation: floatSlow 4s ease-in-out infinite; }
+      @keyframes floatSlow { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+      .node-pulse { animation: nodePulse 2s ease-in-out infinite; }
+      @keyframes nodePulse { 0%,100% { r: 4; opacity: 1; } 50% { r: 6; opacity: 0.6; } }
+      .scan-line { animation: scanLine 4s linear infinite; }
+      @keyframes scanLine { 0% { transform: translateY(0); opacity: 0; } 10% { opacity: 0.3; } 90% { opacity: 0.3; } 100% { transform: translateY(180px); opacity: 0; } }
+      .fade-cycle { animation: fadeCycle 6s ease-in-out infinite; }
+      @keyframes fadeCycle { 0%,100% { opacity: 0.7; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="900" height="780" rx="16" fill="url(#bgGrad)"/>
+  <rect x="2" y="2" width="896" height="776" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="2" filter="url(#glow)"/>
+
+  <rect x="14" y="14" width="872" height="752" rx="10" fill="none" stroke="#00f5ff" stroke-width="0.5" stroke-opacity="0.2"/>
+
+  <rect x="30" y="30" width="840" height="56" rx="8" fill="url(#headerGrad)" stroke="url(#borderGrad)" stroke-width="1" filter="url(#glowSoft)"/>
+
+  <text x="450" y="55" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" filter="url(#glow)">
+    <tspan fill="#00f5ff">&#128302;</tspan>
+    <tspan dx="8">Cyberpunk Neural Quotes &amp; System Philosophy</tspan>
+  </text>
+  <text x="450" y="74" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#7b2ff7" letter-spacing="3" class="pulse-glow">// NEURAL INTERFACE v2.6 //</text>
+
+  <rect x="30" y="100" width="840" height="130" rx="10" fill="url(#quoteBoxGrad)" stroke="url(#borderGrad)" stroke-width="1.5" filter="url(#glass)"/>
+
+  <rect x="30" y="100" width="840" height="130" rx="10" fill="none" stroke="#00f5ff" stroke-width="0.5" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+
+  <text x="50" y="128" font-family="'Consolas', 'Courier New', monospace" font-size="11" fill="#00f5ff" filter="url(#glowSoft)">&#9656; FEATURED TRANSMISSION</text>
+
+  <text x="50" y="158" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-style="italic" fill="#e0e0ff" filter="url(#glowSoft)">&#8220;We may say most aptly that the Analytical Engine weaves algebraical</text>
+  <text x="50" y="182" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-style="italic" fill="#e0e0ff" filter="url(#glowSoft)">patterns just as the Jacquard loom weaves flowers and leaves.&#8221;</text>
+
+  <text x="850" y="214" text-anchor="end" font-family="'Consolas', 'Courier New', monospace" font-size="13" font-weight="700" fill="#ff00e5" filter="url(#glow)">&#8212; Ada Lovelace</text>
+
+  <rect x="30" y="246" width="840" height="200" rx="10" fill="url(#pcbGrad)" stroke="#00f5ff" stroke-width="1" stroke-opacity="0.5" filter="url(#glowSoft)"/>
+
+  <g stroke="#00f5ff" stroke-width="1.5" fill="none" stroke-opacity="0.6">
+    <path d="M 60 280 L 140 280 L 180 320 L 260 320" class="trace-flow" stroke-dasharray="8 4" filter="url(#glowSoft)"/>
+    <path d="M 840 280 L 760 280 L 720 320 L 640 320" class="trace-flow-rev" stroke-dasharray="8 4" filter="url(#glowSoft)"/>
+    <path d="M 60 380 L 140 380 L 180 340 L 260 340" class="trace-flow-rev" stroke-dasharray="8 4" filter="url(#glowSoft)"/>
+    <path d="M 840 380 L 760 380 L 720 340 L 640 340" class="trace-flow" stroke-dasharray="8 4" filter="url(#glowSoft)"/>
+    <path d="M 100 310 L 100 350 L 160 350" class="trace-flow" stroke-dasharray="6 4" stroke-opacity="0.4"/>
+    <path d="M 800 310 L 800 350 L 740 350" class="trace-flow-rev" stroke-dasharray="6 4" stroke-opacity="0.4"/>
+    <path d="M 120 300 L 200 300 L 240 340" class="trace-flow" stroke-dasharray="6 4" stroke-opacity="0.4"/>
+    <path d="M 780 300 L 700 300 L 660 340" class="trace-flow-rev" stroke-dasharray="6 4" stroke-opacity="0.4"/>
+  </g>
+
+  <g fill="#00f5ff" filter="url(#glow)">
+    <circle cx="60" cy="280" r="4" class="node-pulse"/>
+    <circle cx="840" cy="280" r="4" class="node-pulse"/>
+    <circle cx="60" cy="380" r="4" class="node-pulse"/>
+    <circle cx="840" cy="380" r="4" class="node-pulse"/>
+    <circle cx="100" cy="310" r="3" class="node-pulse"/>
+    <circle cx="800" cy="310" r="3" class="node-pulse"/>
+    <circle cx="120" cy="300" r="3" class="node-pulse"/>
+    <circle cx="780" cy="300" r="3" class="node-pulse"/>
+  </g>
+
+  <g fill="#7b2ff7" filter="url(#glowSoft)">
+    <circle cx="180" cy="320" r="3" class="node-pulse"/>
+    <circle cx="720" cy="320" r="3" class="node-pulse"/>
+    <circle cx="180" cy="340" r="3" class="node-pulse"/>
+    <circle cx="720" cy="340" r="3" class="node-pulse"/>
+  </g>
+
+  <rect x="330" y="280" width="240" height="80" rx="8" fill="#0a0a1a" stroke="url(#borderGrad)" stroke-width="1.5" filter="url(#glow)"/>
+
+  <text x="450" y="312" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="20" font-weight="700" fill="#00f5ff" letter-spacing="4" filter="url(#glow)" class="fade-cycle">NEURAL QUOTE</text>
+  <text x="450" y="340" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="20" font-weight="700" fill="#ff00e5" letter-spacing="6" filter="url(#glow)" class="fade-cycle">SYSTEM</text>
+
+  <g stroke="#ff00e5" stroke-width="1" stroke-opacity="0.4" fill="none">
+    <path d="M 330 300 L 300 300 L 280 320" class="trace-flow" stroke-dasharray="4 3"/>
+    <path d="M 570 300 L 600 300 L 620 320" class="trace-flow-rev" stroke-dasharray="4 3"/>
+    <path d="M 330 340 L 300 340 L 280 320" class="trace-flow-rev" stroke-dasharray="4 3"/>
+    <path d="M 570 340 L 600 340 L 620 320" class="trace-flow" stroke-dasharray="4 3"/>
+  </g>
+
+  <rect x="30" y="462" width="840" height="290" rx="10" fill="url(#terminalGrad)" stroke="url(#borderGrad)" stroke-width="1.5" filter="url(#glass)"/>
+
+  <rect x="30" y="462" width="840" height="34" rx="10" fill="#111128"/>
+  <rect x="30" y="486" width="840" height="10" fill="#111128"/>
+
+  <circle cx="52" cy="479" r="5" fill="#ff5f57"/>
+  <circle cx="70" cy="479" r="5" fill="#febc2e"/>
+  <circle cx="88" cy="479" r="5" fill="#28c840"/>
+
+  <text x="450" y="483" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="11" fill="#7b2ff7" letter-spacing="2" class="pulse-glow">rootsec26@neural-core: ~/philosophy</text>
+
+  <rect x="46" y="512" width="340" height="18" rx="3" fill="#1a1a2e" stroke="#333355" stroke-width="0.5"/>
+  <rect x="46" y="512" width="340" height="18" rx="3" fill="none" stroke="#00f5ff" stroke-width="0.5" stroke-opacity="0.3"/>
+
+  <rect x="48" y="514" width="0" height="14" rx="2" fill="url(#barGrad)" class="bar-fill" filter="url(#glow)"/>
+
+  <text x="400" y="526" font-family="'Consolas', 'Courier New', monospace" font-size="13" font-weight="700" fill="#00f5ff" filter="url(#glowSoft)">
+    <tspan class="bar-shimmer">[&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;]</tspan>
+    <tspan dx="10" fill="#ffffff">100%</tspan>
+    <tspan dx="6" fill="#7b2ff7">Neural Sync</tspan>
+    <tspan dx="4" fill="#00f5ff" class="cursor-blink">&#9608;</tspan>
+  </text>
+
+  <line x1="50" y1="548" x2="850" y2="548" stroke="#333355" stroke-width="0.5" stroke-opacity="0.5"/>
+
+  <text x="50" y="576" font-family="'Consolas', 'Courier New', monospace" font-size="14" fill="#c0c0e0" filter="url(#glowSoft)">
+    <tspan fill="#00f5ff">&#10095;</tspan>
+    <tspan dx="8" font-style="italic">&#8220;Talk is cheap. Show me the code.&#8221;</tspan>
+    <tspan dx="10" fill="#ff00e5" font-weight="700">&#8212; Linus Torvalds</tspan>
+  </text>
+
+  <text x="50" y="606" font-family="'Consolas', 'Courier New', monospace" font-size="14" fill="#c0c0e0" filter="url(#glowSoft)">
+    <tspan fill="#00f5ff">&#10095;</tspan>
+    <tspan dx="8" font-style="italic">&#8220;The true sign of intelligence is not knowledge but imagination.&#8221;</tspan>
+    <tspan dx="10" fill="#ff00e5" font-weight="700">&#8212; Albert Einstein</tspan>
+  </text>
+
+  <line x1="50" y1="628" x2="850" y2="628" stroke="#333355" stroke-width="0.5" stroke-opacity="0.5"/>
+
+  <text x="50" y="656" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#555577" letter-spacing="1">
+    <tspan fill="#00f5ff">[</tspan><tspan fill="#7b2ff7">SYSTEM</tspan><tspan fill="#00f5ff">]</tspan>
+    <tspan dx="12">neural-link established :: bandwidth 100TB/s :: latency 0.001ms</tspan>
+  </text>
+
+  <text x="50" y="676" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#555577" letter-spacing="1">
+    <tspan fill="#00f5ff">[</tspan><tspan fill="#ff00e5">PHILOSOPHY</tspan><tspan fill="#00f5ff">]</tspan>
+    <tspan dx="12">imagination &gt; knowledge :: code &gt; words :: build &gt; talk</tspan>
+  </text>
+
+  <text x="50" y="696" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#555577" letter-spacing="1">
+    <tspan fill="#00f5ff">[</tspan><tspan fill="#28c840">STATUS</tspan><tspan fill="#00f5ff">]</tspan>
+    <tspan dx="12">all systems operational :: sync complete :: welcome to the grid</tspan>
+  </text>
+
+  <rect x="46" y="716" width="808" height="1" fill="url(#borderGrad)" stroke-opacity="0.4" class="pulse-glow"/>
+
+  <text x="450" y="738" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="9" fill="#444466" letter-spacing="4" class="pulse-glow">// END OF TRANSMISSION :: STAY NEURAL //</text>
+</svg>

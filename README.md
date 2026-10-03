@@ -90,32 +90,9 @@ class AshrafOmar:
 
 ## 🎛️ Live Cyber Terminal
 
-```bash
- ___________________________________________________________________________________ 
-/                                                                                   \ 
-|   ____   ____   ____  _______                                                     |
-|  |  _ \ / \ \ / /  \/  / ___|                                                     |
-|  | |_) | | | \ V /| |\/| \___ \                                                   |
-|  |  _ <| |_| || | | |  | |___) |                                                  |
-|  |_| \_\\___/ |_| |_|  |_|____/   C Y B E R   T E R M I N A L   v5.19             |
-|___________________________________________________________________________________|
-|                                                                                   |
-|  [+] SYSTEM STATUS  :  🟢 [OK] ONLINE & OPERATIONAL                               |
-|  [+] CURRENT FOCUS  :  🤖 Fine-Tuning AI Models & Next.js Architecture            |
-|  [+] NEURAL LOAD    :  ⚡ 98.4% Efficiency                                        |
-|  [+] CAFFEINE LEVEL :  ☕ 100% Operational                                         |
-|___________________________________________________________________________________|
-|                                                                                   |
-|  > uptime ............. 2.5 years and counting                                    |
-|  > location ........... Assiut, Egypt                                             |
-|  > kernel ............. Linux / Next.js / FastAPI                                 |
-|  > active_agents ...... 10+ Active AI Agents                                      |
-|  > neural_pathway ..... [####################] 98.4%                              |
-|  > caffeine_bar ....... [####################] 100%                               |
-|                                                                                   |
-|  rootsec26@kernel-v5.19-cyber-node:~$ _                                           |
-\___________________________________________________________________________________/
-```
+<p align="center">
+  <img src="./assets/cyber-terminal.svg" alt="Live Cyber Terminal Dashboard" width="100%" />
+</p>
 
 ---
 
@@ -131,25 +108,9 @@ class AshrafOmar:
 
 ## 💬 Cyberpunk Neural Quotes & System Philosophy
 
-<p align="center"><img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" /></p>
-
-```
-┌──────────────────────────────────────────────────────────────┐
-│  ███╗   ██╗███████╗██╗   ██╗██████╗  █████╗ ██╗              │
-│  ████╗  ██║██╔════╝██║   ██║██╔══██╗██╔══██╗██║              │
-│  ██╔██╗ ██║█████╗  ██║   ██║██████╔╝███████║██║              │
-│  ██║╚██╗██║██╔══╝  ██║   ██║██╔══██╗██╔══██║██║              │
-│  ██║ ╚████║███████╗╚██████╔╝██║  ██║██║  ██║███████╗         │
-│  ╚═╝  ╚═══╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝         │
-│              N E U R A L   Q U O T E   S Y S T E M            │
-└──────────────────────────────────────────────────────────────┘
-```
-
-```
-[▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 100% Neural Sync
-> "Talk is cheap. Show me the code." - Linus Torvalds
-> "The true sign of intelligence is not knowledge but imagination." - Albert Einstein
-```
+<p align="center">
+  <img src="./assets/neural-quotes.svg" alt="Cyberpunk Neural Quotes System" width="100%" />
+</p>
 
 ---
 
