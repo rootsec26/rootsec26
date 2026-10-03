@@ -1,6 +1,6 @@
-﻿<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:7b2ff7,100:ff00e5&height=220&section=header&text=Ashraf%20Omar%20(rootsec26)&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Student%20%26%20Frontend%20Developer%20%7C%20Assiut,%20Egypt&descAlignY=55&descSize=18" width="100%" alt="Cyberpunk Banner" />
+﻿<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:7b2ff7,100:ff00e5&height=220&section=header&text=Ashraf%20Omar%20(rootsec26)&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Student%20%26%20Frontend%20Developer%20%7C%20Assiut,%20Egypt&descAlignY=55&descSize=18" alt="Cyberpunk Banner" />
+</p>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00F5FF&center=true&vCenter=true&width=650&lines=AI+Student+%26+Frontend+Developer;Transforming+AI+Logic+into+Seamless+Web+Experiences;Building+Next-Gen+Web+%26+AI+Applications;Cybersecurity+Enthusiast+%26+Full-Stack+Architect" alt="Typing SVG" />
 
@@ -118,4 +118,6 @@ class AshrafOmar:
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00e5,50:7b2ff7,100:00f5ff&height=120&section=footer" width="100%" alt="Footer Banner" />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00e5,50:7b2ff7,100:00f5ff&height=120&section=footer" alt="Footer Banner" />
+</p>
