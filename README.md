@@ -1,8 +1,6 @@
-﻿<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:7b2ff7,100:ff00e5&height=220&section=header&text=Ashraf%20Omar%20(rootsec26)&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Student%20%26%20Frontend%20Developer%20%7C%20Assiut,%20Egypt&descAlignY=55&descSize=18" alt="Cyberpunk Banner" />
-</p>
+﻿<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:7b2ff7,100:ff00e5&height=220&section=header&text=Ashraf%20Omar%20(rootsec26)&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Student%20%26%20Frontend%20Developer%20%7C%20Assiut,%20Egypt&descAlignY=55&descSize=18" alt="Cyberpunk Banner" /></p>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00F5FF&center=true&vCenter=true&width=650&lines=AI+Student+%26+Frontend+Developer;Transforming+AI+Logic+into+Seamless+Web+Experiences;Building+Next-Gen+Web+%26+AI+Applications;Cybersecurity+Enthusiast+%26+Full-Stack+Architect" alt="Typing SVG" />
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=00F5FF&center=true&vCenter=true&width=750&lines=AI+Student+%26+Frontend+Developer;Transforming+AI+Logic+into+Seamless+Web+Experiences;Building+Next-Gen+Web+%26+AI+Applications" alt="Typing Animation" /></p>
 
 <br/>
 
@@ -37,7 +35,7 @@ class AshrafOmar:
 
 ---
 
-## 🤖 Robot Build
+## Robot Build
 
 ```
       /---------\
@@ -100,27 +98,15 @@ class AshrafOmar:
 
 <img src="https://github-readme-stats.vercel.app/api?username=rootsec26&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f5ff&text_color=c0caf5&icon_color=7b2ff7" alt="GitHub Stats" />
 
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rootsec26&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f5ff&text_color=c0caf5" alt="Top Languages" />
+
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=rootsec26&theme=tokyonight&hide_border=true&background=0d1117&stroke=7b2ff7&ring=00f5ff&fire=ff00e5&currStreakNum=ffffff&sideNums=00f5ff&dates=c0caf5" alt="GitHub Streak" />
 
 </div>
 
 ---
 
-## 🎛️ Live Cyber Terminal & Activity Engine
-
-<div align="center">
-
-<div style="background: linear-gradient(135deg, #0d1117 0%, #161b22 100%); border: 1px solid #00f5ff; border-radius: 12px; padding: 0; max-width: 720px; margin: 0 auto; box-shadow: 0 0 30px rgba(0, 245, 255, 0.15), 0 0 60px rgba(123, 47, 247, 0.1); overflow: hidden; font-family: 'Fira Code', 'Courier New', monospace;">
-
-  <div style="background: linear-gradient(90deg, #1a1f2e 0%, #0d1117 100%); padding: 12px 20px; border-bottom: 1px solid #30363d; display: flex; align-items: center; gap: 8px;">
-    <span style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f56; display: inline-block;"></span>
-    <span style="width: 12px; height: 12px; border-radius: 50%; background: #ffbd2e; display: inline-block;"></span>
-    <span style="width: 12px; height: 12px; border-radius: 50%; background: #27c93f; display: inline-block;"></span>
-    <span style="margin-left: 12px; color: #00f5ff; font-size: 13px; font-weight: bold; text-shadow: 0 0 8px rgba(0, 245, 255, 0.6);">rootsec26@kernel-v5.19-cyber-node</span>
-    <span style="margin-left: auto; color: #7b2ff7; font-size: 11px;">bash — 80×24</span>
-  </div>
-
-  <div style="padding: 20px 24px; text-align: left;">
+## Live Cyber Terminal
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -136,14 +122,13 @@ class AshrafOmar:
 
 ```
   ┌─────────────────────────────────────────────────────────┐
-  │  STATUS                    │  🟢 SYSTEM ONLINE & COMPILING │
+  │  STATUS                    │  [OK] SYSTEM ONLINE          │
   ├─────────────────────────────────────────────────────────┤
-  │  CURRENT FOCUS             │  🤖 Fine-Tuning AI Models &   │
-  │                            │     Next.js Architecture      │
+  │  CURRENT FOCUS             │  AI Models & Next.js Arch   │
   ├─────────────────────────────────────────────────────────┤
-  │  NEURAL LOAD               │  ⚡ 98.4% Efficiency           │
+  │  NEURAL LOAD               │  98.4% Efficiency           │
   ├─────────────────────────────────────────────────────────┤
-  │  COFFEE → CODE CONVERSION  │  ☕ 100% Operational           │
+  │  COFFEE -> CODE CONVERSION │  100% Operational           │
   └─────────────────────────────────────────────────────────┘
 ```
 
@@ -152,42 +137,9 @@ class AshrafOmar:
   > location ............ Assiut, Egypt
   > kernel .............. Linux / Next.js / FastAPI
   > active_agents ....... 10+ AI Agents Deployed
-  > neural_pathway ...... <span style="color:#00f5ff;">████████████████████</span> <span style="color:#7b2ff7;">98.4%</span>
-  > caffeine_level ....... <span style="color:#ff00e5;">████████████████████</span> <span style="color:#ff00e5;">100%</span>
+  > neural_pathway ...... [####################] 98.4%
+  > caffeine_level ....... [####################] 100%
 ```
-
-  </div>
-
-  <div style="background: #0d1117; border-top: 1px solid #30363d; padding: 10px 20px; text-align: center;">
-    <span style="color: #30363d; font-size: 11px;">● REC ● LIVE ● rootsec26@kernel-v5.19-cyber-node:~$</span>
-    <span style="color: #00f5ff; font-size: 11px; animation: blink 1s step-end infinite;"> █</span>
-  </div>
-
-</div>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rootsec26&theme=tokyo-night&bg_color=0d1117&hide_border=true" width="100%" alt="Activity Graph" />
-
-</div>
-
----
-
-## 🏆 Cyber Achievements & Neural Trophies
-
-<p align="center"><img src="https://github-profile-trophy.vercel.app/?username=rootsec26&theme=darkhub&column=7&margin-w=15&margin-h=15&no-bg=true&no-frame=false" alt="Cyber Trophies" /></p>
-
-<p align="center"><img src="https://icongr.am/simple/vercel.svg?color=00f5ff&size=16" alt="3D" /> <strong>3D Contribution Isometric Calendar</strong></p>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/rootsec26/rootsec26/main/iso-contributions.png" alt="3D Contribution Isometric Calendar" onerror="this.style.display='none'" />
-
-</div>
 
 ---
 
@@ -198,16 +150,6 @@ class AshrafOmar:
 | Mini Bank & Expense Tracker | FastAPI, Python, JavaScript, HTML/CSS | Active |
 | AI-Nazer LMS Platform | Next.js, React, Supabase, Tailwind | Deployed |
 | Madar AI Platform | Next.js, Supabase, OpenAI API | In Development |
-
----
-
-### Contribution Graph
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/rootsec26/rootsec26/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" />
-
-</div>
 
 ---
 
