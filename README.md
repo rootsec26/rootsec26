@@ -153,6 +153,30 @@ class AshrafOmar:
 
 ---
 
+## 💬 Cyberpunk Neural Quotes & System Philosophy
+
+<p align="center"><img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" /></p>
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  ███╗   ██╗███████╗██╗   ██╗██████╗  █████╗ ██╗              │
+│  ████╗  ██║██╔════╝██║   ██║██╔══██╗██╔══██╗██║              │
+│  ██╔██╗ ██║█████╗  ██║   ██║██████╔╝███████║██║              │
+│  ██║╚██╗██║██╔══╝  ██║   ██║██╔══██╗██╔══██║██║              │
+│  ██║ ╚████║███████╗╚██████╔╝██║  ██║██║  ██║███████╗         │
+│  ╚═╝  ╚═══╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝         │
+│              N E U R A L   Q U O T E   S Y S T E M            │
+└──────────────────────────────────────────────────────────────┘
+```
+
+```
+[▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 100% Neural Sync
+> "Talk is cheap. Show me the code." - Linus Torvalds
+> "The true sign of intelligence is not knowledge but imagination." - Albert Einstein
+```
+
+---
+
 ### Connect
 
 <div align="center">
