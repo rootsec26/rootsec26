@@ -10,8 +10,6 @@
 
 <br/>
 
-</div>
-
 ---
 
 <div align="center">
@@ -36,6 +34,32 @@ class AshrafOmar:
 ```
 
 </div>
+
+---
+
+## 🤖 Robot Build
+
+```
+      /---------\
+     ( |  o   o  | )
+      \   ___   /
+       |=======|
+      /|  {O}  |\
+     / |   |   | \
+    *  |=======|  *
+       | |   | |
+       | |   | |
+       |_|   |_|
+      (__)   (__)
+```
+
+```
+- rootsec26@github
+. Robot Status: 10+ Active AI Agents
+. Build Uptime: 2.5 Years and Counting
+. Core Components: FastAPI, React, Supabase, Python
+. Assembly Location: Assiut, Egypt
+```
 
 ---
 
