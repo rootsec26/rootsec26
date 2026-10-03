@@ -81,6 +81,14 @@
 
 ---
 
+## 🐍 Cyberpunk Contribution Grid
+
+<p align="center"><img src="https://raw.githubusercontent.com/rootsec26/rootsec26/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" /></p>
+
+<p align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=rootsec26&theme=react-dark&bg_color=0d1117&color=00f2ff&line=00f2ff&point=ff007f&area=true&hide_border=true" alt="Cyberpunk Activity Graph" width="100%" /></p>
+
+---
+
 ### Connect
 
 <div align="center">
