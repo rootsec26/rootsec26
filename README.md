@@ -106,6 +106,77 @@ class AshrafOmar:
 
 ---
 
+## 🎛️ Live Cyber Terminal & Activity Engine
+
+<div align="center">
+
+<div style="background: linear-gradient(135deg, #0d1117 0%, #161b22 100%); border: 1px solid #00f5ff; border-radius: 12px; padding: 0; max-width: 720px; margin: 0 auto; box-shadow: 0 0 30px rgba(0, 245, 255, 0.15), 0 0 60px rgba(123, 47, 247, 0.1); overflow: hidden; font-family: 'Fira Code', 'Courier New', monospace;">
+
+  <div style="background: linear-gradient(90deg, #1a1f2e 0%, #0d1117 100%); padding: 12px 20px; border-bottom: 1px solid #30363d; display: flex; align-items: center; gap: 8px;">
+    <span style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f56; display: inline-block;"></span>
+    <span style="width: 12px; height: 12px; border-radius: 50%; background: #ffbd2e; display: inline-block;"></span>
+    <span style="width: 12px; height: 12px; border-radius: 50%; background: #27c93f; display: inline-block;"></span>
+    <span style="margin-left: 12px; color: #00f5ff; font-size: 13px; font-weight: bold; text-shadow: 0 0 8px rgba(0, 245, 255, 0.6);">rootsec26@kernel-v5.19-cyber-node</span>
+    <span style="margin-left: auto; color: #7b2ff7; font-size: 11px;">bash — 80×24</span>
+  </div>
+
+  <div style="padding: 20px 24px; text-align: left;">
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  ██████╗  ██████╗  ██████╗  ████████╗                      │
+│  ██╔══██╗██╔═══██╗██╔═══██╗╚══██╔══╝                      │
+│  ██████╔╝██║   ██║██║   ██║   ██║                         │
+│  ██╔══██╗██║   ██║██║   ██║   ██║                         │
+│  ██║  ██║╚██████╔╝╚██████╔╝   ██║                         │
+│  ╚═╝  ╚═╝ ╚═════╝  ╚═════╝    ╚═╝                         │
+│              C Y B E R   T E R M I N A L  v5.19            │
+└──────────────────────────────────────────────────────────────┘
+```
+
+```
+  ┌─────────────────────────────────────────────────────────┐
+  │  STATUS                    │  🟢 SYSTEM ONLINE & COMPILING │
+  ├─────────────────────────────────────────────────────────┤
+  │  CURRENT FOCUS             │  🤖 Fine-Tuning AI Models &   │
+  │                            │     Next.js Architecture      │
+  ├─────────────────────────────────────────────────────────┤
+  │  NEURAL LOAD               │  ⚡ 98.4% Efficiency           │
+  ├─────────────────────────────────────────────────────────┤
+  │  COFFEE → CODE CONVERSION  │  ☕ 100% Operational           │
+  └─────────────────────────────────────────────────────────┘
+```
+
+```
+  > uptime .............. 2.5 years and counting
+  > location ............ Assiut, Egypt
+  > kernel .............. Linux / Next.js / FastAPI
+  > active_agents ....... 10+ AI Agents Deployed
+  > neural_pathway ...... <span style="color:#00f5ff;">████████████████████</span> <span style="color:#7b2ff7;">98.4%</span>
+  > caffeine_level ....... <span style="color:#ff00e5;">████████████████████</span> <span style="color:#ff00e5;">100%</span>
+```
+
+  </div>
+
+  <div style="background: #0d1117; border-top: 1px solid #30363d; padding: 10px 20px; text-align: center;">
+    <span style="color: #30363d; font-size: 11px;">● REC ● LIVE ● rootsec26@kernel-v5.19-cyber-node:~$</span>
+    <span style="color: #00f5ff; font-size: 11px; animation: blink 1s step-end infinite;"> █</span>
+  </div>
+
+</div>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rootsec26&theme=tokyo-night&bg_color=0d1117&hide_border=true" width="100%" alt="Activity Graph" />
+
+</div>
+
+---
+
 ### Featured Projects
 
 | Project | Tech Stack | Status |
