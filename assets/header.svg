@@ -1,0 +1,629 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050711"/>
+      <stop offset="45%" stop-color="#090d21"/>
+      <stop offset="80%" stop-color="#0d0822"/>
+      <stop offset="100%" stop-color="#050512"/>
+    </linearGradient>
+
+    <linearGradient id="citySkyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#04050d" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#180a33" stop-opacity="0.85"/>
+      <stop offset="85%" stop-color="#280c48" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#090d21" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="cyberSunGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff00a0"/>
+      <stop offset="60%" stop-color="#7b2ff7"/>
+      <stop offset="100%" stop-color="#00f5ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Neon Glow Gradients -->
+    <linearGradient id="neonCyanMag" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="50%" stop-color="#9d4edd"/>
+      <stop offset="100%" stop-color="#ff00a0"/>
+    </linearGradient>
+
+    <linearGradient id="neonMagCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f"/>
+      <stop offset="50%" stop-color="#7b2ff7"/>
+      <stop offset="100%" stop-color="#00f5ff"/>
+    </linearGradient>
+
+    <linearGradient id="cardBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090e1f" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#060917" stop-opacity="0.96"/>
+    </linearGradient>
+
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#7b2ff7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff00a0" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <linearGradient id="circuitGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="50%" stop-color="#38ef7d"/>
+      <stop offset="100%" stop-color="#00f5ff"/>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowNeon" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur1"/>
+      <feGaussianBlur stdDeviation="2" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowSubtle" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="gridPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00f5ff" stroke-width="0.5" stroke-opacity="0.07"/>
+    </pattern>
+
+    <pattern id="dotPattern" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#7b2ff7" fill-opacity="0.25"/>
+    </pattern>
+
+    <style>
+      @keyframes neonPulse {
+        0%, 100% { filter: drop-shadow(0 0 5px #00f5ff) drop-shadow(0 0 15px rgba(0,245,255,0.4)); }
+        50% { filter: drop-shadow(0 0 8px #ff00a0) drop-shadow(0 0 20px rgba(255,0,160,0.5)); }
+      }
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes flowCircuit {
+        0% { stroke-dashoffset: 80; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes radarSweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes beaconFlicker {
+        0%, 100% { opacity: 1; }
+        30% { opacity: 0.3; }
+        60% { opacity: 0.9; }
+        80% { opacity: 0.4; }
+      }
+      @keyframes pulseRing {
+        0% { r: 3; opacity: 1; }
+        100% { r: 9; opacity: 0; }
+      }
+      @keyframes glowBadge {
+        0%, 100% { filter: drop-shadow(0 0 3px #00f5ff); }
+        50% { filter: drop-shadow(0 0 8px #00f5ff) drop-shadow(0 0 14px rgba(0,245,255,0.6)); }
+      }
+      @keyframes scanline {
+        0% { transform: translateY(-50px); opacity: 0; }
+        50% { opacity: 0.6; }
+        100% { transform: translateY(540px); opacity: 0; }
+      }
+
+      .title-anim { animation: neonPulse 4s ease-in-out infinite; }
+      .cursor-anim { animation: blinkCursor 0.9s infinite; }
+      .circuit-anim { stroke-dasharray: 8 6; animation: flowCircuit 1.8s linear infinite; }
+      .circuit-fast { stroke-dasharray: 6 4; animation: flowCircuit 1.2s linear infinite; }
+      .beacon-1 { animation: beaconFlicker 1.8s ease-in-out infinite; }
+      .beacon-2 { animation: beaconFlicker 2.4s ease-in-out infinite; animation-delay: 0.6s; }
+      .badge-glow { animation: glowBadge 2.5s ease-in-out infinite; }
+
+      .mono { font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', 'Consolas', monospace; }
+      .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- ==================== MAIN BACKGROUND ==================== -->
+  <rect width="960" height="540" fill="url(#bgGrad)" rx="14"/>
+  <rect width="960" height="540" fill="url(#gridPattern)" rx="14"/>
+  <rect width="960" height="540" fill="url(#dotPattern)" rx="14"/>
+
+  <!-- Outer Cyber Border -->
+  <rect x="1.5" y="1.5" width="957" height="537" rx="13" fill="none" stroke="url(#neonCyanMag)" stroke-width="1.5" stroke-opacity="0.8"/>
+
+  <!-- ==================== CYBERPUNK HUD CORNER ACCENTS ==================== -->
+  <path d="M 8 26 L 8 8 L 26 8" fill="none" stroke="#00f5ff" stroke-width="2.5"/>
+  <path d="M 952 26 L 952 8 L 934 8" fill="none" stroke="#00f5ff" stroke-width="2.5"/>
+  <path d="M 8 514 L 8 532 L 26 532" fill="none" stroke="#ff00a0" stroke-width="2.5"/>
+  <path d="M 952 514 L 952 532 L 934 532" fill="none" stroke="#ff00a0" stroke-width="2.5"/>
+
+  <!-- HUD Horizontal Tick Marks -->
+  <line x1="38" y1="8" x2="65" y2="8" stroke="#00f5ff" stroke-width="1" stroke-dasharray="3 3" opacity="0.6"/>
+  <line x1="895" y1="8" x2="922" y2="8" stroke="#00f5ff" stroke-width="1" stroke-dasharray="3 3" opacity="0.6"/>
+
+  <!-- ==================== TOP CYBERPUNK CITYSCAPE BANNER ==================== -->
+  <g id="cyberCityBanner">
+    <!-- City Sky Gradient Container -->
+    <rect x="10" y="10" width="940" height="130" fill="url(#citySkyGrad)" rx="8"/>
+
+    <!-- Distant Cyber Sun / Neon AI Core in Horizon -->
+    <circle cx="480" cy="98" r="46" fill="url(#cyberSunGrad)" opacity="0.85"/>
+    <circle cx="480" cy="98" r="58" fill="none" stroke="#ff00a0" stroke-width="1" opacity="0.4" stroke-dasharray="4 4"/>
+    <circle cx="480" cy="98" r="70" fill="none" stroke="#00f5ff" stroke-width="0.75" opacity="0.25"/>
+
+    <!-- Perspective Grid Horizon Lines -->
+    <line x1="10" y1="138" x2="950" y2="138" stroke="#00f5ff" stroke-width="1" opacity="0.5"/>
+    <line x1="480" y1="98" x2="160" y2="140" stroke="#00f5ff" stroke-width="0.6" opacity="0.15"/>
+    <line x1="480" y1="98" x2="320" y2="140" stroke="#00f5ff" stroke-width="0.6" opacity="0.15"/>
+    <line x1="480" y1="98" x2="640" y2="140" stroke="#00f5ff" stroke-width="0.6" opacity="0.15"/>
+    <line x1="480" y1="98" x2="800" y2="140" stroke="#00f5ff" stroke-width="0.6" opacity="0.15"/>
+
+    <!-- Silhouetted Futuristic Cyber City Skyline (Layer 1: Back/Dark Purple) -->
+    <path d="M 10 140 
+             L 10 95 L 35 95 L 35 110 L 60 110 L 60 85 L 80 85 L 80 140
+             L 110 140 L 110 70 L 130 55 L 150 70 L 150 140
+             L 180 140 L 180 85 L 210 85 L 210 140
+             L 260 140 L 260 78 L 290 78 L 290 140
+             L 660 140 L 660 80 L 690 80 L 690 140
+             L 730 140 L 730 65 L 750 50 L 770 65 L 770 140
+             L 810 140 L 810 85 L 840 85 L 840 140
+             L 880 140 L 880 92 L 910 92 L 910 140
+             L 950 140 Z" 
+          fill="#110a26" opacity="0.9"/>
+
+    <!-- Layer 2: Mid-ground Cyber Towers with Neon Edge Tracing & Spire Beacons -->
+    <!-- Tower 1 Left -->
+    <rect x="25" y="80" width="30" height="60" fill="#0d1124" stroke="#7b2ff7" stroke-width="0.8" opacity="0.8"/>
+    <line x1="40" y1="80" x2="40" y2="60" stroke="#ff00a0" stroke-width="1.2"/>
+    <circle cx="40" cy="58" r="2.5" fill="#ff00a0" class="beacon-1" filter="url(#glowSubtle)"/>
+
+    <!-- Tower 2 Mega Spire (Left) -->
+    <path d="M 85 140 L 85 62 L 95 40 L 105 62 L 105 140 Z" fill="#0c1228" stroke="#00f5ff" stroke-width="1"/>
+    <line x1="95" y1="40" x2="95" y2="22" stroke="#00f5ff" stroke-width="1.5"/>
+    <circle cx="95" cy="20" r="3" fill="#00f5ff" class="beacon-2" filter="url(#glowCyan)"/>
+    <!-- Neon Windows Matrix on Spire -->
+    <line x1="90" y1="75" x2="100" y2="75" stroke="#00f5ff" stroke-width="1" opacity="0.8"/>
+    <line x1="90" y1="88" x2="100" y2="88" stroke="#ff00a0" stroke-width="1" opacity="0.8"/>
+    <line x1="90" y1="101" x2="100" y2="101" stroke="#00f5ff" stroke-width="1" opacity="0.8"/>
+    <line x1="90" y1="114" x2="100" y2="114" stroke="#00f5ff" stroke-width="1" opacity="0.8"/>
+
+    <!-- Tower 3 Highrise -->
+    <rect x="135" y="75" width="42" height="65" fill="#0e1530" stroke="#7b2ff7" stroke-width="0.8"/>
+    <line x1="142" y1="88" x2="150" y2="88" stroke="#00f5ff" stroke-width="1" opacity="0.9"/>
+    <line x1="158" y1="88" x2="168" y2="88" stroke="#ff00a0" stroke-width="1" opacity="0.9"/>
+    <line x1="142" y1="102" x2="150" y2="102" stroke="#00f5ff" stroke-width="1" opacity="0.9"/>
+    <line x1="158" y1="102" x2="168" y2="102" stroke="#00f5ff" stroke-width="1" opacity="0.9"/>
+
+    <!-- Tower 4 (Right side Spire) -->
+    <path d="M 850 140 L 850 68 L 860 48 L 870 68 L 870 140 Z" fill="#0c1228" stroke="#00f5ff" stroke-width="1"/>
+    <line x1="860" y1="48" x2="860" y2="28" stroke="#ff00a0" stroke-width="1.5"/>
+    <circle cx="860" cy="26" r="3" fill="#ff00a0" class="beacon-1" filter="url(#glowNeon)"/>
+    <line x1="855" y1="78" x2="865" y2="78" stroke="#00f5ff" stroke-width="1"/>
+    <line x1="855" y1="92" x2="865" y2="92" stroke="#ff00a0" stroke-width="1"/>
+    <line x1="855" y1="106" x2="865" y2="106" stroke="#00f5ff" stroke-width="1"/>
+
+    <!-- Tower 5 Far Right -->
+    <rect x="890" y="78" width="40" height="62" fill="#0d1124" stroke="#7b2ff7" stroke-width="0.8"/>
+    <line x1="910" y1="78" x2="910" y2="58" stroke="#00f5ff" stroke-width="1"/>
+    <circle cx="910" cy="56" r="2.5" fill="#00f5ff" class="beacon-2" filter="url(#glowSubtle)"/>
+
+    <!-- Cyberpunk Hologram / Light Beams -->
+    <polygon points="95,20 60,140 130,140" fill="#00f5ff" opacity="0.04"/>
+    <polygon points="860,26 820,140 900,140" fill="#ff00a0" opacity="0.04"/>
+
+    <!-- ==================== TOP BAR HUD META INFO ==================== -->
+    <g class="mono" font-size="10" fill="#6c7a9c">
+      <!-- Status pill left -->
+      <rect x="24" y="19" width="138" height="20" rx="4" fill="#070c1b" stroke="#00f5ff" stroke-width="0.8" opacity="0.9"/>
+      <circle cx="34" cy="29" r="3.5" fill="#00ff88" filter="url(#glowSubtle)"/>
+      <text x="44" y="33" fill="#a4b3d6" font-weight="600">SYS: ONLINE // 2.6</text>
+
+      <!-- Center node -->
+      <rect x="368" y="19" width="224" height="20" rx="4" fill="#070c1b" stroke="#7b2ff7" stroke-width="0.8" opacity="0.9"/>
+      <text x="382" y="33" fill="#c084fc" font-weight="600">NODE: ASSIUT-EG [27.18° N]</text>
+    </g>
+
+    <!-- ==================== PROFILE VIEWS BADGE ==================== -->
+    <!-- Requirement: Profile Views Badge: Dynamic or styled counter badge 👁️️ [VIEWS] with cyan neon lighting -->
+    <g id="profileViewsBadge" class="badge-glow" transform="translate(738, 17)">
+      <rect x="0" y="0" width="195" height="24" rx="5" fill="#060b1b" stroke="#00f5ff" stroke-width="1.2"/>
+      <!-- Inner accent line -->
+      <rect x="2" y="2" width="191" height="20" rx="3" fill="#0d142d" fill-opacity="0.7"/>
+      
+      <!-- Eye Icon -->
+      <g transform="translate(10, 4)">
+        <path d="M 1 8 C 4 3, 11 3, 14 8 C 11 13, 4 13, 1 8 Z" fill="none" stroke="#00f5ff" stroke-width="1.3" filter="url(#glowSubtle)"/>
+        <circle cx="7.5" cy="8" r="2.4" fill="#00f5ff"/>
+        <circle cx="8" cy="7.5" r="0.8" fill="#ffffff"/>
+      </g>
+      
+      <text x="32" y="16" class="mono" font-size="11" font-weight="700" fill="#00f5ff" letter-spacing="0.5">
+        VIEWS <tspan fill="#ffffff">|</tspan> <tspan fill="#38ef7d">14,892</tspan> <tspan fill="#ff00a0" font-size="9">[LIVE]</tspan>
+      </text>
+      <!-- Pulsing radar dot on badge -->
+      <circle cx="184" cy="12" r="3" fill="#38ef7d"/>
+      <circle cx="184" cy="12" r="6" fill="none" stroke="#38ef7d" stroke-width="0.8" opacity="0.6"/>
+    </g>
+
+    <!-- ==================== HERO TITLE & BRANDING ==================== -->
+    <g transform="translate(480, 78)" text-anchor="middle">
+      <!-- Tagline Mini Badge -->
+      <rect x="-135" y="-18" width="270" height="18" rx="9" fill="#0b1026" stroke="#7b2ff7" stroke-width="0.8" opacity="0.95"/>
+      <text x="0" y="-5" class="mono" font-size="10" font-weight="600" fill="#bd93f9" letter-spacing="2">
+        // ROOTSEC26 // NEURAL NEXUS
+      </text>
+
+      <!-- Main Glowing Identity Header -->
+      <text x="0" y="24" class="sans title-anim" font-size="28" font-weight="900" fill="url(#neonCyanMag)" letter-spacing="2">
+        ASHRAF OMAR
+      </text>
+
+      <!-- Subtitle requirement: Title Text: "Building Next-Gen Web & AI Applications" with neon glow effect -->
+      <text x="0" y="47" class="mono" font-size="13.5" font-weight="700" fill="#00f5ff" letter-spacing="1.2" filter="url(#glowCyan)">
+        &lt; Building Next-Gen Web &amp; AI Applications /&gt;
+      </text>
+    </g>
+  </g>
+
+  <!-- ==================== CONNECTOR NEON CIRCUIT LINES (BETWEEN CARDS) ==================== -->
+  <!-- Connected Neon Circuit Line SVG tracing from Tech Stack (Left) to Python class definition (Right) -->
+  <g id="circuitTraces">
+    <!-- Background passive circuit tracks -->
+    <path d="M 445 425 H 472 V 262 H 495" fill="none" stroke="#1c2541" stroke-width="3"/>
+    <path d="M 445 450 H 480 V 315 H 495" fill="none" stroke="#1c2541" stroke-width="3"/>
+    <path d="M 445 390 H 465 V 368 H 495" fill="none" stroke="#1c2541" stroke-width="3"/>
+
+    <!-- Glowing Active Bus Lines -->
+    <path d="M 445 425 H 472 V 262 H 495" fill="none" stroke="url(#circuitGrad)" stroke-width="2" class="circuit-anim" filter="url(#glowSubtle)"/>
+    <path d="M 445 450 H 480 V 315 H 495" fill="none" stroke="#ff00a0" stroke-width="1.8" class="circuit-fast" filter="url(#glowSubtle)"/>
+    <path d="M 445 390 H 465 V 368 H 495" fill="none" stroke="#00f5ff" stroke-width="1.5" class="circuit-anim"/>
+
+    <!-- Junction Nodes with Pulse Rings -->
+    <circle cx="472" cy="262" r="3.5" fill="#00f5ff" filter="url(#glowSubtle)"/>
+    <circle cx="480" cy="315" r="3" fill="#ff00a0"/>
+    <circle cx="465" cy="368" r="3" fill="#38ef7d"/>
+    
+    <!-- Central Data Bus Chip Indicator -->
+    <rect x="461" y="278" width="22" height="26" rx="3" fill="#060917" stroke="#7b2ff7" stroke-width="1"/>
+    <text x="472" y="295" class="mono" font-size="8" font-weight="700" fill="#00f5ff" text-anchor="middle">AI</text>
+    <line x1="457" y1="284" x2="461" y2="284" stroke="#00f5ff" stroke-width="1"/>
+    <line x1="457" y1="291" x2="461" y2="291" stroke="#00f5ff" stroke-width="1"/>
+    <line x1="457" y1="298" x2="461" y2="298" stroke="#00f5ff" stroke-width="1"/>
+    <line x1="483" y1="284" x2="487" y2="284" stroke="#ff00a0" stroke-width="1"/>
+    <line x1="483" y1="291" x2="487" y2="291" stroke="#ff00a0" stroke-width="1"/>
+    <line x1="483" y1="298" x2="487" y2="298" stroke="#ff00a0" stroke-width="1"/>
+  </g>
+
+  <!-- ==================== LEFT CARD: ABOUT ME & AVATAR ==================== -->
+  <g id="leftCard" transform="translate(24, 152)">
+    <!-- Glassmorphic Background Container -->
+    <rect width="422" height="364" rx="10" fill="url(#cardBgGrad)"/>
+    <rect width="422" height="364" rx="10" fill="none" stroke="url(#cardBorder)" stroke-width="1.3"/>
+
+    <!-- Header bar of Left Card -->
+    <path d="M 0 10 C 0 4.5, 4.5 0, 10 0 L 412 0 C 417.5 0, 422 4.5, 422 10 L 422 32 L 0 32 Z" fill="#0e152e" fill-opacity="0.95"/>
+    <line x1="0" y1="32" x2="422" y2="32" stroke="#00f5ff" stroke-width="0.8" opacity="0.6"/>
+
+    <!-- Left Card Title & HUD elements -->
+    <circle cx="16" cy="16" r="3.5" fill="#00f5ff" filter="url(#glowSubtle)"/>
+    <text x="28" y="20" class="mono" font-size="11" font-weight="700" fill="#00f5ff" letter-spacing="1">
+      [01] // NEURAL IDENTITY &amp; CORE
+    </text>
+    <rect x="330" y="7" width="80" height="18" rx="3" fill="#060a17" stroke="#7b2ff7" stroke-width="0.8"/>
+    <text x="370" y="20" class="mono" font-size="9.5" font-weight="600" fill="#c084fc" text-anchor="middle">CYBER-ID</text>
+
+    <!-- Chamfer / Tech Corner Cut on Bottom Right -->
+    <path d="M 402 364 L 422 344 L 422 364 Z" fill="#00f5ff" opacity="0.4"/>
+
+    <!-- ===== AVATAR & BIO SECTION ===== -->
+    <!-- Avatar Holographic Frame -->
+    <g transform="translate(22, 48)">
+      <!-- Outer Hex/Octagon Glow Rings -->
+      <polygon points="40,2 68,14 80,40 68,66 40,78 12,66 0,40 12,14" fill="#080e22" stroke="url(#neonCyanMag)" stroke-width="2" filter="url(#glowSubtle)"/>
+      <polygon points="40,6 64,17 74,40 64,63 40,74 16,63 6,40 16,17" fill="none" stroke="#7b2ff7" stroke-width="1" stroke-dasharray="3 3"/>
+
+      <!-- Stylized Cyberpunk Avatar Graphic (Geometric Cyborg Core) -->
+      <!-- Shoulders / Cyber Armor Collar -->
+      <path d="M 18 68 Q 40 56, 62 68 L 68 76 L 12 76 Z" fill="#131c38" stroke="#00f5ff" stroke-width="1"/>
+      <!-- Face / Helmet Silhouette -->
+      <path d="M 28 32 C 28 20, 52 20, 52 32 C 52 46, 47 54, 40 56 C 33 54, 28 46, 28 32 Z" fill="#1a254a" stroke="#7b2ff7" stroke-width="1.2"/>
+      <!-- Neon Visor / Cyber Eye Beam -->
+      <path d="M 30 33 L 50 33 L 48 39 L 32 39 Z" fill="#00f5ff" filter="url(#glowCyan)"/>
+      <circle cx="36" cy="36" r="1.2" fill="#ffffff"/>
+      <circle cx="44" cy="36" r="1.2" fill="#ffffff"/>
+      <!-- Cyber Circuit markings on temple -->
+      <line x1="24" y1="26" x2="28" y2="28" stroke="#ff00a0" stroke-width="1"/>
+      <line x1="56" y1="26" x2="52" y2="28" stroke="#ff00a0" stroke-width="1"/>
+      <circle cx="40" cy="18" r="2" fill="#ff00a0"/>
+
+      <!-- Online Indicator Pin -->
+      <circle cx="70" cy="14" r="4" fill="#00ff88" filter="url(#glowSubtle)"/>
+      <circle cx="70" cy="14" r="7" fill="none" stroke="#00ff88" stroke-width="0.8" opacity="0.6"/>
+    </g>
+
+    <!-- Identity & Title Beside Avatar -->
+    <g transform="translate(118, 48)">
+      <text x="0" y="18" class="sans" font-size="17" font-weight="800" fill="#ffffff" letter-spacing="0.5">
+        Ashraf Omar
+      </text>
+      <text x="0" y="34" class="mono" font-size="11" font-weight="600" fill="#00f5ff">
+        rootsec26 // Assiut, Egypt [EG]
+      </text>
+      
+      <!-- Role Badge -->
+      <rect x="0" y="42" width="220" height="20" rx="4" fill="#101938" stroke="#7b2ff7" stroke-width="0.8"/>
+      <text x="10" y="56" class="mono" font-size="9.5" font-weight="700" fill="#e2bbfd">
+        AI STUDENT &amp; FRONTEND DEV
+      </text>
+      
+      <!-- Status Indicator Pill -->
+      <rect x="0" y="68" width="168" height="18" rx="9" fill="#091b1f" stroke="#00ff88" stroke-width="0.8"/>
+      <circle cx="8" cy="77" r="2.5" fill="#00ff88"/>
+      <text x="16" y="80" class="mono" font-size="9" font-weight="600" fill="#00ff88">
+        READY FOR NEXT-GEN
+      </text>
+    </g>
+
+    <!-- Technical Bio Section -->
+    <g transform="translate(20, 155)">
+      <rect x="0" y="0" width="382" height="74" rx="6" fill="#070c1d" stroke="#1f2d52" stroke-width="1"/>
+      <line x1="0" y1="0" x2="3" y2="74" stroke="#00f5ff" stroke-width="3"/>
+      
+      <text x="14" y="20" class="mono" font-size="10.5" fill="#a4b3d6">
+        <tspan fill="#00f5ff" font-weight="700">&gt;</tspan> Specialized in <tspan fill="#ffffff" font-weight="600">Web AI Systems</tspan> &amp; Reactive UI
+      </text>
+      <text x="14" y="38" class="mono" font-size="10.5" fill="#a4b3d6">
+        <tspan fill="#ff00a0" font-weight="700">&gt;</tspan> Bridging <tspan fill="#c084fc" font-weight="600">Neural Intelligence</tspan> to Sleek Frontends
+      </text>
+      <text x="14" y="56" class="mono" font-size="10.5" fill="#a4b3d6">
+        <tspan fill="#38ef7d" font-weight="700">&gt;</tspan> Cyber Security Enthusiast &amp; Python Architect
+      </text>
+    </g>
+
+    <!-- ===== TECH STACK ICONS BELOW BIO ===== -->
+    <!-- Requirement: Tech stack icons below it (React, Python, HTML5, Supabase, Tailwind) -->
+    <g transform="translate(20, 244)">
+      <!-- Section Header -->
+      <text x="2" y="12" class="mono" font-size="10" font-weight="700" fill="#00f5ff" letter-spacing="1">
+        // CORE TECH ARSENAL [CONNECTED]:
+      </text>
+      <line x1="230" y1="9" x2="382" y2="9" stroke="#1f2d52" stroke-width="1" stroke-dasharray="2 2"/>
+
+      <!-- Stack Badges Grid / Row -->
+      <!-- 1. React -->
+      <g transform="translate(0, 22)">
+        <rect width="72" height="38" rx="6" fill="#081426" stroke="#00d8ff" stroke-width="1.2"/>
+        <!-- React Atom SVG Icon -->
+        <g transform="translate(8, 7)">
+          <ellipse cx="11" cy="12" rx="9" ry="3.5" fill="none" stroke="#00d8ff" stroke-width="1" transform="rotate(30 11 12)"/>
+          <ellipse cx="11" cy="12" rx="9" ry="3.5" fill="none" stroke="#00d8ff" stroke-width="1" transform="rotate(90 11 12)"/>
+          <ellipse cx="11" cy="12" rx="9" ry="3.5" fill="none" stroke="#00d8ff" stroke-width="1" transform="rotate(150 11 12)"/>
+          <circle cx="11" cy="12" r="1.8" fill="#00d8ff"/>
+        </g>
+        <text x="35" y="24" class="sans" font-size="10" font-weight="700" fill="#ffffff">React</text>
+      </g>
+
+      <!-- 2. Python -->
+      <g transform="translate(77, 22)">
+        <rect width="76" height="38" rx="6" fill="#091428" stroke="#3776ab" stroke-width="1.2"/>
+        <!-- Python Logo Icon -->
+        <g transform="translate(8, 8)">
+          <path d="M 10 2 C 5 2, 5 5, 5 5 L 5 8 L 11 8 L 11 9 L 3 9 C 3 9, 0 9, 0 14 C 0 19, 3 19, 3 19 L 5 19 L 5 16 C 5 13, 8 13, 8 13 L 13 13 C 15 13, 16 12, 16 10 L 16 5 C 16 2, 13 2, 10 2 Z" fill="#3776ab"/>
+          <circle cx="7" cy="5" r="1" fill="#ffffff"/>
+          <path d="M 10 22 C 15 22, 15 19, 15 19 L 15 16 L 9 16 L 9 15 L 17 15 C 17 15, 20 15, 20 10 C 20 5, 17 5, 17 5 L 15 5 L 15 8 C 15 11, 12 11, 12 11 L 7 11 C 5 11, 4 12, 4 14 L 4 19 C 4 22, 7 22, 10 22 Z" fill="#ffd43b"/>
+          <circle cx="13" cy="19" r="1" fill="#000000"/>
+        </g>
+        <text x="35" y="24" class="sans" font-size="10" font-weight="700" fill="#ffffff">Python</text>
+      </g>
+
+      <!-- 3. HTML5 -->
+      <g transform="translate(158, 22)">
+        <rect width="72" height="38" rx="6" fill="#1f0f0c" stroke="#e34f26" stroke-width="1.2"/>
+        <!-- HTML5 Shield Icon -->
+        <g transform="translate(8, 8)">
+          <polygon points="2,0 18,0 16,18 10,21 4,18" fill="#e34f26"/>
+          <polygon points="10,2 16,2 14.5,16.5 10,18.5" fill="#f06529"/>
+          <path d="M 6 4 L 14 4 L 13.5 7 L 8 7 L 8.5 10 L 13 10 L 12.5 14 L 10 15 L 7.5 14 L 7.3 12 L 6 12 L 6.4 15.5 L 10 16.8 L 13.6 15.5 L 14.3 8 L 6 8 Z" fill="#ffffff"/>
+        </g>
+        <text x="33" y="24" class="sans" font-size="10" font-weight="700" fill="#ffffff">HTML5</text>
+      </g>
+
+      <!-- 4. Supabase -->
+      <g transform="translate(235, 22)">
+        <rect width="82" height="38" rx="6" fill="#081c16" stroke="#3ecf8e" stroke-width="1.2"/>
+        <!-- Supabase Emerald Lightning Icon -->
+        <g transform="translate(8, 9)">
+          <path d="M 12 1 L 2 13 L 9 13 L 6 21 L 18 8 L 11 8 Z" fill="#3ecf8e" filter="url(#glowSubtle)"/>
+        </g>
+        <text x="31" y="24" class="sans" font-size="10" font-weight="700" fill="#ffffff">Supabase</text>
+      </g>
+
+      <!-- 5. Tailwind -->
+      <g transform="translate(322, 22)">
+        <rect width="76" height="38" rx="6" fill="#081822" stroke="#38b2ac" stroke-width="1.2"/>
+        <!-- Tailwind Twin Waves Icon -->
+        <g transform="translate(7, 10)">
+          <path d="M 9 2.5 C 6.5 2.5 5 3.8 4.5 6.2 C 5.5 5 6.8 4.5 8 5 C 9.4 5.6 10.4 7.1 11.5 8.7 C 13.3 11.3 15.6 13 19 13 C 21.5 13 23 11.7 23.5 9.3 C 22.5 10.5 21.2 11 20 10.5 C 18.6 9.9 17.6 8.4 16.5 6.8 C 14.7 4.2 12.4 2.5 9 2.5 Z" fill="#38b2ac"/>
+          <path d="M 2 8 C 0.5 8 -0.5 9.2 -0.8 11.2 C 0.2 10.2 1.3 9.8 2.2 10.2 C 3.4 10.7 4.2 12 5.2 13.3 C 6.7 15.5 8.6 17 11.5 17 C 13.6 17 14.8 15.9 15.2 13.9 C 14.4 14.9 13.3 15.3 12.4 14.9 C 11.2 14.4 10.4 13.1 9.4 11.8 C 7.9 9.6 6 8 2 8 Z" fill="#38b2ac"/>
+        </g>
+        <text x="31" y="24" class="sans" font-size="10" font-weight="700" fill="#ffffff">Tailwind</text>
+      </g>
+
+      <!-- Terminal Output Port Bus connecting to PCB Traces on right -->
+      <line x1="398" y1="41" x2="422" y2="41" stroke="#00f5ff" stroke-width="2" class="circuit-anim"/>
+      <circle cx="422" cy="41" r="3" fill="#00f5ff" filter="url(#glowSubtle)"/>
+      <circle cx="422" cy="16" r="2.5" fill="#38ef7d"/>
+      <circle cx="422" cy="66" r="2.5" fill="#ff00a0"/>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT CARD: PYTHON DEVELOPER CORE ==================== -->
+  <!-- Requirement: Styled code container rendering the Python class:
+       class AshrafOmar:
+           """Cyberpunk Developer Core // rootsec26"""
+           def __init__(self):
+               self.identity = "Ashraf Omar (rootsec26)"
+               self.role = "AI Student & Frontend Developer"
+               self.location = "Assiut, Egypt"
+               self.stack = ["React", "Next.js", "TypeScript", "Tailwind CSS", "FastAPI", "Python", "Linux", "Supabase"]
+               self.focus = "Building Next-Gen Web & AI Applications"
+
+           def build(self):
+               return "Transforming AI Logic into Seamless Web Experiences"
+  -->
+  <g id="rightCard" transform="translate(495, 152)">
+    <!-- Container Window Background -->
+    <rect width="441" height="364" rx="10" fill="#070a16"/>
+    <rect width="441" height="364" rx="10" fill="none" stroke="url(#neonMagCyan)" stroke-width="1.3"/>
+
+    <!-- IDE Window Titlebar -->
+    <path d="M 0 10 C 0 4.5, 4.5 0, 10 0 L 431 0 C 436.5 0, 441 4.5, 441 10 L 441 32 L 0 32 Z" fill="#0d1226"/>
+    <line x1="0" y1="32" x2="441" y2="32" stroke="#ff00a0" stroke-width="0.8" opacity="0.6"/>
+
+    <!-- Window Control Buttons (macOS / Cyber style) -->
+    <circle cx="16" cy="16" r="4.5" fill="#ff5f56"/>
+    <circle cx="30" cy="16" r="4.5" fill="#ffbd2e"/>
+    <circle cx="44" cy="16" r="4.5" fill="#27c93f"/>
+
+    <!-- Active Tab Pill -->
+    <g transform="translate(68, 6)">
+      <rect width="168" height="22" rx="4" fill="#060914" stroke="#7b2ff7" stroke-width="0.8"/>
+      <!-- Python mini snake in tab -->
+      <circle cx="14" cy="11" r="3" fill="#3776ab"/>
+      <circle cx="17" cy="11" r="3" fill="#ffd43b"/>
+      <text x="26" y="15" class="mono" font-size="10.5" font-weight="600" fill="#00f5ff">
+        ashraf_omar.py
+      </text>
+      <!-- Small X -->
+      <text x="154" y="14.5" class="mono" font-size="9" fill="#6c7a9c">×</text>
+    </g>
+
+    <!-- Right Window Status -->
+    <text x="424" y="20" class="mono" font-size="9" font-weight="600" fill="#718096" text-anchor="end">
+      UTF-8  |  PYTHON 3.12
+    </text>
+
+    <!-- Line Numbers Background Gutter -->
+    <rect x="0" y="32" width="30" height="332" fill="#050711" opacity="0.8"/>
+    <line x1="30" y1="32" x2="30" y2="364" stroke="#161f38" stroke-width="1"/>
+
+    <!-- Line Numbers -->
+    <g class="mono" font-size="9" fill="#3f4d6d" text-anchor="end">
+      <text x="23" y="53">01</text>
+      <text x="23" y="72">02</text>
+      <text x="23" y="91">03</text>
+      <text x="23" y="110">04</text>
+      <text x="23" y="129">05</text>
+      <text x="23" y="148">06</text>
+      <text x="23" y="167">07</text>
+      <text x="23" y="186">08</text>
+      <text x="23" y="205">09</text>
+      <text x="23" y="224">10</text>
+      <text x="23" y="243">11</text>
+      <text x="23" y="262">12</text>
+      <text x="23" y="281">13</text>
+      <text x="23" y="300">14</text>
+      <text x="23" y="319">15</text>
+      <text x="23" y="338">16</text>
+    </g>
+
+    <!-- ==================== SYNTAX HIGHLIGHTED PYTHON CODE ==================== -->
+    <g class="mono" font-size="9.5" font-weight="500">
+      <!-- Line 01: class AshrafOmar: -->
+      <text x="38" y="53">
+        <tspan fill="#ff00a0" font-weight="700">class</tspan> <tspan fill="#00f5ff" font-weight="700">AshrafOmar</tspan><tspan fill="#ffffff">:</tspan>
+      </text>
+
+      <!-- Line 02: """Cyberpunk Developer Core // rootsec26""" -->
+      <text x="52" y="72" fill="#bd93f9" font-style="italic">
+        """Cyberpunk Developer Core // rootsec26"""
+      </text>
+
+      <!-- Line 03: [empty line] -->
+
+      <!-- Line 04: def __init__(self): -->
+      <text x="52" y="110">
+        <tspan fill="#ff00a0" font-weight="700">def</tspan> <tspan fill="#50fa7b">__init__</tspan><tspan fill="#ffffff">(</tspan><tspan fill="#ffb86c">self</tspan><tspan fill="#ffffff">):</tspan>
+      </text>
+
+      <!-- Line 05: self.identity = "Ashraf Omar (rootsec26)" -->
+      <text x="66" y="129">
+        <tspan fill="#ffb86c">self</tspan><tspan fill="#ffffff">.</tspan><tspan fill="#8be9fd">identity</tspan> <tspan fill="#ff79c6">=</tspan> <tspan fill="#f1fa8c">"Ashraf Omar (rootsec26)"</tspan>
+      </text>
+
+      <!-- Line 06: self.role = "AI Student & Frontend Developer" -->
+      <text x="66" y="148">
+        <tspan fill="#ffb86c">self</tspan><tspan fill="#ffffff">.</tspan><tspan fill="#8be9fd">role</tspan> <tspan fill="#ff79c6">=</tspan> <tspan fill="#f1fa8c">"AI Student &amp; Frontend Developer"</tspan>
+      </text>
+
+      <!-- Line 07: self.location = "Assiut, Egypt" -->
+      <text x="66" y="167">
+        <tspan fill="#ffb86c">self</tspan><tspan fill="#ffffff">.</tspan><tspan fill="#8be9fd">location</tspan> <tspan fill="#ff79c6">=</tspan> <tspan fill="#f1fa8c">"Assiut, Egypt"</tspan>
+      </text>
+
+      <!-- Line 08: self.stack = [ -->
+      <text x="66" y="186">
+        <tspan fill="#ffb86c">self</tspan><tspan fill="#ffffff">.</tspan><tspan fill="#8be9fd">stack</tspan> <tspan fill="#ff79c6">=</tspan> <tspan fill="#00f5ff" font-weight="700">[</tspan>
+      </text>
+
+      <!-- Line 09: "React", "Next.js", "TypeScript", -->
+      <text x="82" y="205" fill="#50fa7b">
+        "React"<tspan fill="#ffffff">, </tspan>"Next.js"<tspan fill="#ffffff">, </tspan>"TypeScript"<tspan fill="#ffffff">,</tspan>
+      </text>
+
+      <!-- Line 10: "Tailwind CSS", "FastAPI", "Python", -->
+      <text x="82" y="224" fill="#50fa7b">
+        "Tailwind CSS"<tspan fill="#ffffff">, </tspan>"FastAPI"<tspan fill="#ffffff">, </tspan>"Python"<tspan fill="#ffffff">,</tspan>
+      </text>
+
+      <!-- Line 11: "Linux", "Supabase"] -->
+      <text x="82" y="243">
+        <tspan fill="#50fa7b">"Linux"</tspan><tspan fill="#ffffff">, </tspan><tspan fill="#50fa7b">"Supabase"</tspan><tspan fill="#00f5ff" font-weight="700">]</tspan>
+      </text>
+
+      <!-- Line 12: self.focus = "Building Next-Gen Web & AI Applications" -->
+      <text x="66" y="262">
+        <tspan fill="#ffb86c">self</tspan><tspan fill="#ffffff">.</tspan><tspan fill="#8be9fd">focus</tspan> <tspan fill="#ff79c6">=</tspan> <tspan fill="#f1fa8c">"Building Next-Gen Web &amp; AI Applications"</tspan>
+      </text>
+
+      <!-- Line 13: [empty line] -->
+
+      <!-- Line 14: def build(self): -->
+      <text x="52" y="300">
+        <tspan fill="#ff00a0" font-weight="700">def</tspan> <tspan fill="#50fa7b">build</tspan><tspan fill="#ffffff">(</tspan><tspan fill="#ffb86c">self</tspan><tspan fill="#ffffff">):</tspan>
+      </text>
+
+      <!-- Line 15: return "Transforming AI Logic into Seamless Web Experiences" -->
+      <text x="66" y="319">
+        <tspan fill="#ff00a0" font-weight="700">return</tspan> <tspan fill="#f1fa8c">"Transforming AI Logic into Seamless Web Experiences"</tspan>
+      </text>
+
+      <!-- Line 16: Blinking Cursor -->
+      <text x="66" y="338">
+        <tspan fill="#00f5ff" class="cursor-anim" font-weight="900">█</tspan>
+      </text>
+    </g>
+
+    <!-- Bottom Status Bar inside Terminal -->
+    <path d="M 0 348 L 441 348 L 441 364 L 0 364 Z" fill="#090e1f"/>
+    <text x="12" y="360" class="mono" font-size="9" fill="#00f5ff" font-weight="600">
+      ⚡ EXEC: 0.002s // ALL SYSTEMS NOMINAL
+    </text>
+    <circle cx="426" cy="356" r="3" fill="#00ff88" filter="url(#glowSubtle)"/>
+  </g>
+
+</svg>

@@ -1,44 +1,13 @@
-﻿<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:7b2ff7,100:ff00e5&height=220&section=header&text=Ashraf%20Omar%20(rootsec26)&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Student%20%26%20Frontend%20Developer%20%7C%20Assiut,%20Egypt&descAlignY=55&descSize=18" alt="Cyberpunk Banner" /></p>
-
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=00F5FF&center=true&vCenter=true&width=750&lines=AI+Student+%26+Frontend+Developer;Transforming+AI+Logic+into+Seamless+Web+Experiences;Building+Next-Gen+Web+%26+AI+Applications" alt="Typing Animation" /></p>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=rootsec26&label=Profile%20Views&color=00f5ff&style=for-the-badge" alt="Profile Views" />
-
-<br/>
-
----
-
-<div align="center">
-
-```python
-class AshrafOmar:
-    """Cyberpunk Developer Core // rootsec26"""
-
-    def __init__(self):
-        self.identity = "Ashraf Omar (rootsec26)"
-        self.role = "AI Student & Frontend Developer"
-        self.location = "Assiut, Egypt"
-        self.stack = [
-            "React", "Next.js", "TypeScript",
-            "Tailwind CSS", "FastAPI", "Python",
-            "Linux", "Supabase"
-        ]
-        self.focus = "Building Next-Gen Web & AI Applications"
-
-    def build(self):
-        return "Transforming AI Logic into Seamless Web Experiences"
-```
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rootsec26/rootsec26/main/assets/header.svg" alt="Cyberpunk Header" width="100%" />
+</p>
 
 ---
 
 ## Robot Build
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rootsec26/rootsec26/main/assets/cyber-terminal.svg" alt="Live Cyber Terminal Dashboard" width="100%" />
+  <img src="https://raw.githubusercontent.com/rootsec26/rootsec26/main/assets/robot-build.svg" alt="Cybernetic Android Architecture" width="100%" />
 </p>
 
 ---
