@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="100%" style="stop-color:#1a0a2e"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00f5ff"/>
+      <stop offset="50%" style="stop-color:#7b2ff7"/>
+      <stop offset="100%" style="stop-color:#ff00e5"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .robot-line {
+        opacity: 0;
+        animation: drawLine 0.4s ease-out forwards;
+      }
+      .robot-line:nth-child(1) { animation-delay: 0.2s; }
+      .robot-line:nth-child(2) { animation-delay: 0.6s; }
+      .robot-line:nth-child(3) { animation-delay: 1.0s; }
+      .robot-line:nth-child(4) { animation-delay: 1.4s; }
+      .robot-line:nth-child(5) { animation-delay: 1.8s; }
+      .robot-line:nth-child(6) { animation-delay: 2.2s; }
+      .robot-line:nth-child(7) { animation-delay: 2.6s; }
+      .robot-line:nth-child(8) { animation-delay: 3.0s; }
+      .robot-line:nth-child(9) { animation-delay: 3.4s; }
+      .robot-line:nth-child(10) { animation-delay: 3.8s; }
+      .robot-line:nth-child(11) { animation-delay: 4.2s; }
+
+      @keyframes drawLine {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+      .spec-line {
+        opacity: 0;
+        animation: fadeIn 0.5s ease-out forwards;
+      }
+      .spec-line:nth-child(1) { animation-delay: 1.0s; }
+      .spec-line:nth-child(2) { animation-delay: 1.8s; }
+      .spec-line:nth-child(3) { animation-delay: 2.6s; }
+      .spec-line:nth-child(4) { animation-delay: 3.4s; }
+      .spec-line:nth-child(5) { animation-delay: 4.2s; }
+
+      @keyframes fadeIn {
+        0% { opacity: 0; transform: translateX(-10px); }
+        100% { opacity: 1; transform: translateX(0); }
+      }
+
+      .header-text {
+        opacity: 0;
+        animation: fadeIn 0.8s ease-out forwards;
+        animation-delay: 0.1s;
+      }
+
+      .cursor-blink {
+        animation: blink 0.8s step-end infinite;
+      }
+
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      .pulse-glow {
+        animation: pulseGlow 2s ease-in-out infinite;
+      }
+
+      @keyframes pulseGlow {
+        0%, 100% { filter: drop-shadow(0 0 3px #00f5ff); }
+        50% { filter: drop-shadow(0 0 8px #00f5ff); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGrad)" rx="12"/>
+
+  <!-- Border -->
+  <rect x="2" y="2" width="796" height="396" fill="none" stroke="url(#borderGrad)" stroke-width="2" rx="12"/>
+
+  <!-- Header -->
+  <text x="400" y="40" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="#00f5ff" class="header-text">
+    Robot Build - System Status &amp; Configuration Dashboard
+  </text>
+
+  <!-- Left Box - Robot -->
+  <rect x="30" y="60" width="340" height="310" fill="none" stroke="#7b2ff7" stroke-width="1.5" rx="8" opacity="0.6"/>
+  <text x="200" y="85" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#7b2ff7" opacity="0.8">
+    [ ASSEMBLY UNIT ]
+  </text>
+
+  <!-- Robot ASCII Art - Line by Line Animation -->
+  <g font-family="'Courier New', monospace" font-size="14" fill="#00f5ff" text-anchor="middle">
+    <text x="200" y="120" class="robot-line">      /---------\</text>
+    <text x="200" y="140" class="robot-line">     ( |  o   o  | )</text>
+    <text x="200" y="160" class="robot-line">      \   ___   /</text>
+    <text x="200" y="180" class="robot-line">       |=======|</text>
+    <text x="200" y="200" class="robot-line">      /|  {O}  |\</text>
+    <text x="200" y="220" class="robot-line">     / |   |   | \</text>
+    <text x="200" y="240" class="robot-line">    *  |=======|  *</text>
+    <text x="200" y="260" class="robot-line">       | |   | |</text>
+    <text x="200" y="280" class="robot-line">       | |   | |</text>
+    <text x="200" y="300" class="robot-line">       |_|   |_|</text>
+    <text x="200" y="320" class="robot-line">      (__)   (__)</text>
+  </g>
+
+  <!-- Right Box - Specs -->
+  <rect x="390" y="60" width="380" height="310" fill="none" stroke="#00f5ff" stroke-width="1.5" rx="8" opacity="0.6"/>
+  <text x="580" y="85" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#00f5ff" opacity="0.8">
+    [ BUILD SPECS ]
+  </text>
+
+  <!-- Spec Lines - Sequential Reveal -->
+  <g font-family="'Courier New', monospace" font-size="13" fill="#c0caf5">
+    <text x="410" y="120" class="spec-line">  user: rootsec26</text>
+    <text x="410" y="155" class="spec-line">  [STATUS]: 10+ Active AI Agents</text>
+    <text x="410" y="190" class="spec-line">  [UPTIME]: 2.5 Years and Counting</text>
+    <text x="410" y="225" class="spec-line">  [COMPONENTS]: FastAPI | React | Supabase | Python</text>
+    <text x="410" y="260" class="spec-line">  [ASSEMBLY]: Assiut, Egypt</text>
+  </g>
+
+  <!-- Status Indicator -->
+  <circle cx="740" cy="100" r="5" fill="#00ff88" class="pulse-glow"/>
+  <text x="730" y="105" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#00ff88">
+    ONLINE
+  </text>
+
+  <!-- Cursor -->
+  <text x="410" y="300" font-family="'Courier New', monospace" font-size="13" fill="#00f5ff" class="cursor-blink">_</text>
+</svg>

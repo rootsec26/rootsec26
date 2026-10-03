@@ -37,27 +37,9 @@ class AshrafOmar:
 
 ## Robot Build
 
-```
-      /---------\
-     ( |  o   o  | )
-      \   ___   /
-       |=======|
-      /|  {O}  |\
-     / |   |   | \
-    *  |=======|  *
-       | |   | |
-       | |   | |
-       |_|   |_|
-      (__)   (__)
-```
-
-```
-- rootsec26@github
-. Robot Status: 10+ Active AI Agents
-. Build Uptime: 2.5 Years and Counting
-. Core Components: FastAPI, React, Supabase, Python
-. Assembly Location: Assiut, Egypt
-```
+<p align="center">
+  <img src="./assets/robot-build.svg" alt="Animated Robot Build Dashboard" width="100%" />
+</p>
 
 ---
 
@@ -106,39 +88,33 @@ class AshrafOmar:
 
 ---
 
-## Live Cyber Terminal
+## 🎛️ Live Cyber Terminal
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│  ██████╗  ██████╗  ██████╗  ████████╗                      │
-│  ██╔══██╗██╔═══██╗██╔═══██╗╚══██╔══╝                      │
-│  ██████╔╝██║   ██║██║   ██║   ██║                         │
-│  ██╔══██╗██║   ██║██║   ██║   ██║                         │
-│  ██║  ██║╚██████╔╝╚██████╔╝   ██║                         │
-│  ╚═╝  ╚═╝ ╚═════╝  ╚═════╝    ╚═╝                         │
-│              C Y B E R   T E R M I N A L  v5.19            │
-└──────────────────────────────────────────────────────────────┘
-```
-
-```
-  ┌─────────────────────────────────────────────────────────┐
-  │  STATUS                    │  [OK] SYSTEM ONLINE          │
-  ├─────────────────────────────────────────────────────────┤
-  │  CURRENT FOCUS             │  AI Models & Next.js Arch   │
-  ├─────────────────────────────────────────────────────────┤
-  │  NEURAL LOAD               │  98.4% Efficiency           │
-  ├─────────────────────────────────────────────────────────┤
-  │  COFFEE -> CODE CONVERSION │  100% Operational           │
-  └─────────────────────────────────────────────────────────┘
-```
-
-```
-  > uptime .............. 2.5 years and counting
-  > location ............ Assiut, Egypt
-  > kernel .............. Linux / Next.js / FastAPI
-  > active_agents ....... 10+ AI Agents Deployed
-  > neural_pathway ...... [####################] 98.4%
-  > caffeine_level ....... [####################] 100%
+```bash
+ ___________________________________________________________________________________ 
+/                                                                                   \ 
+|   ____   ____   ____  _______                                                     |
+|  |  _ \ / \ \ / /  \/  / ___|                                                     |
+|  | |_) | | | \ V /| |\/| \___ \                                                   |
+|  |  _ <| |_| || | | |  | |___) |                                                  |
+|  |_| \_\\___/ |_| |_|  |_|____/   C Y B E R   T E R M I N A L   v5.19             |
+|___________________________________________________________________________________|
+|                                                                                   |
+|  [+] SYSTEM STATUS  :  🟢 [OK] ONLINE & OPERATIONAL                               |
+|  [+] CURRENT FOCUS  :  🤖 Fine-Tuning AI Models & Next.js Architecture            |
+|  [+] NEURAL LOAD    :  ⚡ 98.4% Efficiency                                        |
+|  [+] CAFFEINE LEVEL :  ☕ 100% Operational                                         |
+|___________________________________________________________________________________|
+|                                                                                   |
+|  > uptime ............. 2.5 years and counting                                    |
+|  > location ........... Assiut, Egypt                                             |
+|  > kernel ............. Linux / Next.js / FastAPI                                 |
+|  > active_agents ...... 10+ Active AI Agents                                      |
+|  > neural_pathway ..... [####################] 98.4%                              |
+|  > caffeine_bar ....... [####################] 100%                               |
+|                                                                                   |
+|  rootsec26@kernel-v5.19-cyber-node:~$ _                                           |
+\___________________________________________________________________________________/
 ```
 
 ---
