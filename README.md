@@ -38,7 +38,7 @@ class AshrafOmar:
 ## Robot Build
 
 <p align="center">
-  <img src="./assets/robot-build.svg" alt="Animated Robot Build Dashboard" width="100%" />
+  <img src="https://raw.githubusercontent.com/rootsec26/rootsec26/main/assets/cyber-terminal.svg" alt="Live Cyber Terminal Dashboard" width="100%" />
 </p>
 
 ---
