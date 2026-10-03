@@ -90,9 +90,7 @@ class AshrafOmar:
 
 ## 🎛️ Live Cyber Terminal
 
-<p align="center">
-  <img src="./assets/cyber-terminal.svg" alt="Live Cyber Terminal Dashboard" width="100%" />
-</p>
+<p align="center"><img src="https://raw.githubusercontent.com/rootsec26/rootsec26/main/assets/cyber-terminal.svg" alt="Live Cyber Terminal Dashboard" width="100%" /></p>
 
 ---
 
