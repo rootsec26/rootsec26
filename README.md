@@ -1,12 +1,12 @@
-# rootsec26
+# Ashraf Omar
 
-**AI Student & Full-Stack Developer**
+**AI Student & Full-Stack Web Developer | Building Next-Gen Systems**
 
 ---
 
-## About
+## About Me
 
-Passionate about building innovative solutions at the intersection of AI and full-stack development. Currently exploring machine learning, web development, and cybersecurity tools.
+I'm an AI student at the Faculty of Computers and Information, passionate about full-stack web development, backend architecture, and cybersecurity tools. I focus on building innovative solutions at the intersection of artificial intelligence and modern web technologies. Currently exploring machine learning, scalable backend systems, and security-focused development practices.
 
 ---
 
@@ -21,7 +21,7 @@ Passionate about building innovative solutions at the intersection of AI and ful
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-### Frameworks
+### Frameworks & Libraries
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
@@ -45,16 +45,18 @@ Passionate about building innovative solutions at the intersection of AI and ful
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rootsec26&show_icons=true&theme=transparent&hide_border=true&title_color=007acc&text_color=333333&icon_color=007acc)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rootsec26&layout=compact&theme=transparent&hide_border=true&title_color=007acc&text_color=333333)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rootsec26&theme=transparent&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=498)
 
 ---
 
 ## Featured Projects
 
-| Project | Tech Stack | Status |
-|---------|------------|--------|
-| Mini Bank & Expense Tracker | FastAPI, Python, JavaScript, HTML/CSS | Active |
-| AI-Nazer LMS Platform | Next.js, React, Supabase, Tailwind | Deployed |
-| Madar AI Platform | Next.js, Supabase, OpenAI API | In Development |
+| Project | Description | Tech Stack | Status |
+|---------|-------------|-----------|--------|
+| [الناظر (AI-Nazer) LMS Platform](https://github.com/rootsec26/ai-nazer) | Educational learning management system with AI-powered features | Next.js, React, Supabase, Tailwind CSS | Deployed |
+| Mini Bank & Expense Tracker | Full-stack banking and expense management application | FastAPI, Python, JavaScript, HTML/CSS | Active |
+| Madar AI Platform | AI-powered platform with OpenAI integration | Next.js, Supabase, OpenAI API | In Development |
+| Custom Developer Tools | Automation tools and developer utilities | Python, Shell Scripting, Git | Active |
 
 ---
 
