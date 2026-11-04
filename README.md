@@ -6,7 +6,7 @@
 
 ## 👤 About Me
 
-AI student at the Faculty of Computers and Information, deeply passionate about full-stack web development, backend architecture, and cybersecurity. I specialize in building innovative solutions at the intersection of artificial intelligence and modern web technologies. Currently focused on machine learning, scalable backend systems, and security-focused development practices.
+AI student at the Faculty of Computers and Information, deeply passionate about full-stack web development, backend architecture, and cybersecurity. I specialize in building innovative solutions at the intersection of artificial intelligence and modern web technologies, with a strong focus on Retrieval-Augmented Generation (RAG) systems, scalable backend infrastructure, and security-focused development practices.
 
 ---
 
