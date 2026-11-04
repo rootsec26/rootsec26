@@ -1,16 +1,16 @@
 # Ashraf Omar
 
-**AI Student & Full-Stack Web Developer | Building Next-Gen Systems**
+**AI Student & Full-Stack Developer**
 
 ---
 
-## About Me
+## 👤 About Me
 
-I'm an AI student at the Faculty of Computers and Information, passionate about full-stack web development, backend architecture, and cybersecurity tools. I focus on building innovative solutions at the intersection of artificial intelligence and modern web technologies. Currently exploring machine learning, scalable backend systems, and security-focused development practices.
+AI student at the Faculty of Computers and Information, deeply passionate about full-stack web development, backend architecture, and cybersecurity. I specialize in building innovative solutions at the intersection of artificial intelligence and modern web technologies. Currently focused on machine learning, scalable backend systems, and security-focused development practices.
 
 ---
 
-## Tech Arsenal
+## 🛠️ Tech Arsenal
 
 ### Languages
 
@@ -41,15 +41,7 @@ I'm an AI student at the Faculty of Computers and Information, passionate about 
 
 ---
 
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rootsec26&show_icons=true&theme=transparent&hide_border=true&title_color=007acc&text_color=333333&icon_color=007acc)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rootsec26&layout=compact&theme=transparent&hide_border=true&title_color=007acc&text_color=333333)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rootsec26&theme=transparent&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=498)
-
----
-
-## Featured Projects
+## 🚀 Featured Projects
 
 | Project | Description | Tech Stack | Status |
 |---------|-------------|-----------|--------|
@@ -60,7 +52,7 @@ I'm an AI student at the Faculty of Computers and Information, passionate about 
 
 ---
 
-## Connect
+## 📬 Connect
 
 [![Email](https://img.shields.io/badge/Email-rootsec68%40gmail.com-007acc?style=flat-square&logo=gmail&logoColor=white)](mailto:rootsec68@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-rootsec26-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rootsec26)
